@@ -1,0 +1,24 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- 运行期生成的数据（clone 后跑一次采集即可重建）----
+data/prices.db
+data/daily.log
+data/_probe*.json
+data/_*.json
+snapshots/
+
+# ---- 本地分发包 ----
+dist/
+
+# ---- Node（仅测试用）----
+node_modules/
+package-lock.json
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
